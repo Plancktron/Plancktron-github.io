@@ -1,1 +1,2 @@
 Hello world! This is my first time using Git, hope it'll be fun. :)
+This line was written on second-branch as a tutorial on pushing on Git.
