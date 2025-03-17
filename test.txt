@@ -4,5 +4,4 @@ This line was written on second-branch as a tutorial on pushing on Git.
 ### Notes for Linux ###
 1. /local/ means you have it installed not via package manager, so to uninstall it you have to provide the full path:
   1. Do ./.local/bin/pip3.6 uninstall pip instead of pip3.6 uninstall pip
-2. Installation of python pip:
-  1. Use ensurepip if you have permission to the system. Otherwise, download from bootstrap.pypa.io. Use the latest get-pip.py. Run python get-pip.py.
+2. To load Python in NSCC ASPIRE2A system (an HPC), use module avail python to check the versions available first. Then run module load python/xx.xx.xx to load the python modulefile. Check the Python version using python --version. Pip package manager should come together with the corresponding Python version.
