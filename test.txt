@@ -2,4 +2,5 @@ Hello world! This is my first time using Git, hope it'll be fun. :)
 This line was written on second-branch as a tutorial on pushing on Git.
 
 ### Notes for Linux ###
-
+1. /local/ means you have it installed not via package manager, so to uninstall it you have to provide the full path:
+  Do ./.local/bin/pip3.6 uninstall pip instead of pip3.6 uninstall pip
