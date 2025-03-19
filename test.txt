@@ -13,3 +13,4 @@ This line was written on second-branch as a tutorial on pushing on Git.
 3. bcftools view
 4. samtools 
 5. plink 
+6. qsub -I -l walltime=3:00:00 -l select=1:ncpus=4:mem=128G
