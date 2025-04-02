@@ -14,3 +14,8 @@ This line was written on second-branch as a tutorial on pushing on Git.
 4. samtools 
 5. plink 
 6. qsub -I -l walltime=3:00:00 -l select=1:ncpus=4:mem=128G
+
+### Errors 
+[E::bgzf_read_block] Failed to read BGZF block data at offset 1299608530 expected 3953 bytes; hread returned 2648
+[E::vcf_parse_format] Couldn't read GT data: value not a number or '.' at C08:8102210
+[W::bgzf_read_block] EOF marker is absent. The input may be truncated
